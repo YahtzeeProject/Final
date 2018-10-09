@@ -1,6 +1,6 @@
-package Code;
+package Main;
 
-public class Random {
+public class level2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
