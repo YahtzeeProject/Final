@@ -1,15 +1,18 @@
-package Code;
-
-import Code.ScoreSheet;
-import Code.Random;
-
+package Main;
 
 public class Main {
 
 	public static void main(String[] args) {
 
 		
-		String name;
+		
+		
+		
+		
+		
+		
+		
+		
 		
 }
 }
