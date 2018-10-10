@@ -1,4 +1,4 @@
-package Main;
+package Levels;
 import util.Scanner;
 public class level2 {
 	
