@@ -1,13 +1,13 @@
 package Words;
 
 public class Words1Easy {
-
+	public static String[] words2 = new String[5];
 	public static void words() {
 		
 		// TODO Auto-generated method stub
 		
-		int random = (int )(Math.random() * 10 + 1);
-		String[] words = new String[5];
+		
+		
 		
 		String Answer;
 		String Party = "A type of celebration!";
@@ -21,46 +21,49 @@ public class Words1Easy {
 		String Egg = "Chickens lay these.";
 		String Fan = "Blows air.";
 
-		for (int i = 0; i < words.length; i++) {
-		if (random == 1)
+		for (int i = 0; i < words2.length; i++) {
+		
+			int random = (int )(Math.random() * 10 + 1);
+			
+			if (random == 1)
 		{
-			words[i] = Party;
+			words2[i] = Party;
 		}
 		else if (random == 2)
 		{
-			words[i] = Loop;
+			words2[i] = Loop;
 		}
 		else if (random == 3)
 		{
-			words[i] = Airplane;
+			words2[i] = Airplane;
 		}
 		else if (random == 4)
 		{
-			words[i] = Balloon;
+			words2[i] = Balloon;
 		}
 		else if (random == 5)
 		{
-			words[i] = Bee;
+			words2[i] = Bee;
 		}
 		else if (random == 6)
 		{
-			words[i] = Bomb;
+			words2[i] = Bomb;
 		}
 		else if (random == 7)
 		{
-			words[i] = Chef;
+			words2[i] = Chef;
 		}
 		else if (random == 8)
 		{
-			words[i] = Drink;
+			words2[i] = Drink;
 		}
 		else if (random == 9)
 		{
-			words[i] = Egg;
+			words2[i] = Egg;
 		}
 		else if (random == 10)
 		{
-			words[i] = Fan;
+			words2[i] = Fan;
 		}
 		}
 		
