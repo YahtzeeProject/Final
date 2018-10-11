@@ -28,50 +28,52 @@ public class words1easy {
 		for (int i = 0; i < words.length; i++) {
 		
 			int random = (int )(Math.random() * 10 + 1);
-			
+				
 			if (random == 1)
-			
-		{
-			words[i] = define[0];
-		}
-		else if (random == 2)
-		{
-			words[i] = define[1];
-		}
-		else if (random == 3)
-		{
-			words[i] = define[2];
-		}
-		else if (random == 4)
-		{
-			words[i] = define[3];
-		}
-		else if (random == 5)
-		{
-			words[i] = define[4];
-		}
-		else if (random == 6)
-		{
-			words[i] = define[5];
-		}
-		else if (random == 7)
-		{
-			words[i] = define[6];
-		}
-		else if (random == 8)
-		{
-			words[i] = define[7];
-		}
-		else if (random == 9)
-		{
-			words[i] = define[8];
-		}
-		else if (random == 10)
-		{
-			words[i] = define[9];
-		}
+				
+			{
+				words[i] = define[0];
+			}
+			else if (random == 2)
+			{
+				words[i] = define[1];
+			}
+			else if (random == 3)
+			{
+				words[i] = define[2];
+			}
+			else if (random == 4)
+			{
+				words[i] = define[3];
+			}
+			else if (random == 5)
+			{
+				words[i] = define[4];
+			}
+			else if (random == 6)
+			{
+				words[i] = define[5];
+			}
+			else if (random == 7)
+			{
+				words[i] = define[6];
+			}
+			else if (random == 8)
+			{
+				words[i] = define[7];
+			}
+			else if (random == 9)
+			{
+				words[i] = define[8];
+			}
+			else if (random == 10)
+			{
+				words[i] = define[9];
+			}
 		}
 		
+
+		}
 	}
 
-}
+
