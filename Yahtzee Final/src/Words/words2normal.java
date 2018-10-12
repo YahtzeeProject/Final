@@ -8,10 +8,25 @@ public class words2normal {
 		
 		
 		String answer;
-		String acrophobia = "A fear of spiders";
-		String archipelago = "A group of islands ";
-		String 
+		String Arachnophobia = "The fear of spiders";
+		String Archipelago = "A group of islands";
+		String Glacier = "A mountian of ice";
+		String Normies = "Degenarates";
+		String Xenophobia = "A dislkie of people froms other countries";
+		String Narcissism = "Valuing yourself above all others";
+		String Tertiphobia = "Fear of the number 4";
 		
-	}
-
+		
+				
+					
+				}
+					
 }
+{
+		
+		
+
+{
+	
+}
+
