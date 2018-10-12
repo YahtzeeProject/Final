@@ -1,13 +1,14 @@
 package Main;
-import util.Scanner;
+
+import java.swing.JOptionPane;
+import java.swing. 
 public class level2 {
 	
  
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner.new(System.in);
-		
+	
 	}
 
 }
