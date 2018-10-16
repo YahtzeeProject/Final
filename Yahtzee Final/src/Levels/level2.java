@@ -1,4 +1,4 @@
-package Main;
+/*package Levels;
 import util.Scanner;
 public class level2 {
 	
@@ -11,3 +11,4 @@ public class level2 {
 	}
 
 }
+*/
