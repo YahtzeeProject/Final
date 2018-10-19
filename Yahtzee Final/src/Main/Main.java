@@ -1,6 +1,6 @@
 package Main;
 
-import javax.swing.JOptionPane;
+import javax.swing.JOptionPane;// Lets us use GUIs
 
 public class Main {
 
@@ -9,7 +9,7 @@ public class Main {
 		
 		Levels.Level1.level1();
 		
-		 String message = JOptionPane.showInputDialog(null,"Would You like to play level 2?");
+		 String message = JOptionPane.showInputDialog(null,"Would You like to play level 2?");//
 		
 		 if ("Yes".equals(message))
 		 {

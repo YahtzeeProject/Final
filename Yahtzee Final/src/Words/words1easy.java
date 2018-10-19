@@ -5,12 +5,24 @@ public class words1easy {
 	
 	public static String[] ans = new String[5];
 	
-
+	public static String[] hint = new String[5];
+	
 	public static void words() {
 		
 		// TODO Auto-generated method stub
 		
 		String[] define = { "A type of celebration!", "A repeated circle.", "A machine that can fly.", "A ball with helium.", "Bzzz Bzzzz.","Terrorists use this.","They cook food.","Something you do to liquids.","Chickens lay these." , "Blows air."};  
+		
+		String Partyhint = "P _ _ _ y";
+		 String Loophint = "L _ _ p";
+		String Airplanehint = "A _ _ _ _ _ _ e";
+		String Balloonhint = "B _ _ _ _ _ n"; 
+		 String Beehint = "B _ _";
+		 String Bombhint = "B _ _ b";
+		 String Chefhint = "C _ _ f" ;
+		 String Drinkhint = "D _ _ _ k";
+		 String Egghint = "E _ _ s";
+		 String Fanhint = "F _ _ ";
 		
 		 String PartyAns = "Party";
 		 String LoopAns = "Loop";
@@ -33,53 +45,62 @@ public class words1easy {
 				
 			{
 				words[i] = define[0];
-				ans[i] = PartyAns;  
+				ans[i] = PartyAns;
+				hint[i] = Partyhint;
 			}
 			else if (random == 2)
 			{
 				words[i] = define[1];
+				hint[i] = Loophint;
 				ans[i] = LoopAns;
 			}
 			else if (random == 3)
 			{
 				words[i] = define[2];
 				ans[i] = AirplaneAns;
+				hint[i] = Airplanehint;
 			}
 			else if (random == 4)
 			{
 				words[i] = define[3];
 				ans[i] = BalloonAns;
+				hint[i] = Balloonhint;
 			}
 			else if (random == 5)
 			{
 				words[i] = define[4];
-				
+				hint[i] = Beehint;
 				ans[i] = BeeAns;
 			}
 			else if (random == 6)
 			{
 				words[i] = define[5];
 				ans[i] = BombAns;
+				hint[i] = Bombhint;
 			}
 			else if (random == 7)
 			{
 				words[i] = define[6];
 				ans[i] = ChefAns;
+				hint[i] = Chefhint;
 			}
 			else if (random == 8)
 			{
 				words[i] = define[7];
 				ans[i] = DrinkAns;
+				hint[i] = Drinkhint;
 			}
 			else if (random == 9)
 			{
 				words[i] = define[8];
+				hint[i] = Egghint;
 				ans[i] = EggAns;
 			}
 			else if (random == 10)
 			{
 				words[i] = define[9];
 				ans[i] = FanAns;
+				hint[i] = Fanhint;
 			}
 		}
 		for (int l = 0; l < ans.length; l++)
