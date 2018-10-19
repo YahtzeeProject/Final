@@ -2,7 +2,11 @@ package Words;
 
 public class words3hard {
 
-	public static void main(String[] args) {
+	public static String[] words3 = new String[5];
+
+	public static String[] ans3 = new String[5];
+	
+	public static void words3() {
 		// TODO Auto-generated method stub
 		
 		String anwers;
