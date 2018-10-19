@@ -9,7 +9,7 @@ public class words3hard {
 	public static void words3() {
 		// TODO Auto-generated method stub
 		
-		String anwers;
+		String answers;
 		
 		String Anthropomorphobia = "Fear of recognizing human traits in non-human object";
 		String Bacteriophobia = "The fear of germs";
